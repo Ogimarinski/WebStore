@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="bg">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>WebStore</title>
+    <link rel="stylesheet" href="/vendor/bootstrap/css/bootstrap.min.css" />
+  </head>
+  <body>
+    <nav class="navbar bg-body-tertiary border-bottom">
+      <div class="container">
+        <a class="navbar-brand" href="/">WebStore</a>
+      </div>
+    </nav>
+
+    <main class="container my-4">
+      <div class="row g-4">
+        <section class="col-12">
+          <p id="result-count" class="text-body-secondary"></p>
+          <div id="product-grid" class="row row-cols-2 row-cols-lg-3 g-3"></div>
+          <nav id="pagination" class="mt-4"></nav>
+        </section>
+      </div>
+    </main>
+
+    <script type="module" src="/js/catalog.page.js"></script>
+  </body>
+</html>
